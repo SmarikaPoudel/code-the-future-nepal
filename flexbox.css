@@ -1,0 +1,91 @@
+ </div>
+    <div class="container2">
+        <div class="column1">
+            <p>This is the column1.</p>
+        </div>
+        <div class="column2">
+            <p>This is the column2.</p>
+        </div>
+        <div class="column3">
+            <p>This is the column3.</p>
+        </div>
+        <div class="column2">
+            <p>This is the column4.</p>
+        </div>
+        <div class="column2">
+            <p>This is the column5.</p>
+        </div>
+        <div class="column2">
+            <p>This is the column6.</p>
+        </div>
+        <div class="colu
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .left-column {
+            flex: 1;
+        }
+        .right-column {
+            flex: 1;
+        }
+        .container2 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: red;
+        }
+        .column1 {
+            background-color: lightblue;
+        }
+        .column2 {
+            background-color: lightblue;
+            flex-grow: 1;
+        }
+        .column3 {
+            background-color: lightblue;
+        }
+        .column4 {
+            background-color: lightblue;
+        }
+        .column1 {
+            background-color: lightblue;
+        }
+        .column5 {
+            background-color: lightblue;
+        }
+        .column1 {
+            background-color: lightblue;
+        }
+        .column6 {
+            background-color: lightblue;
+        }
+        .column7 {
+            background-color: lightblue;
+        }
+        .column8 {
+            background-color: lightblue;
+        }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./gridcss.css" />
+    <meta charset="UTF-8">
+    <title>My Webpage</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+    </div>
+</body>
+</html>

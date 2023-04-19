@@ -39,19 +39,23 @@
             border-width: 5px;
     
         }
+        
     </style>
 
 </head>
-<body>  
-<p style=" color:black; font-family: cursive;"> HELLOO</p>
+<body>
+ 
+    <p style=" color:black; font-family: cursive;"> HELLOO</p>
 
-<b style="font-size: large; color: black; underline ">My name is smarika</b> <br> <br>
+<b style="font-size: larger; color: black; underline ">My name is smarika</b> <br> <br>
 
 
-
-    <img src="new cat image.jpg"heihht="300"width="250"> <br>
-    <img src="800px-Gustav_chocolate.jpg" height="200" width="250">
-    <h1>this is my cat</h1>
+<ul>
+    <img class="cat1" src="new cat image.jpg" width="250" > <br>
+    <img  class="cat2" src="800px-Gustav_chocolate.jpg" height="200" width="250"> 
+</ul>
+    
+    <h1>This Is My Cat</h1>
     <p>Things I Have For My Cat</p>
     <OL>
         <LI>BASKET</LI>
@@ -59,30 +63,35 @@
         <li>FOOD</li>
     </OL>
     <TAble>
-        <CAPTIon>cat</CAPTIon>
+        <CAPTIon> <h1><textarea name="cat" id="cat" cols="3" rows="1">Cat </h1></CAPTIon></textarea>
         <tr>
-            <th>name</th>
-            <th>age</th>
-            <th>height</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Height</th>
         </tr>
         <tr>
-            <td>james</td>
+            <td>James</td>
             <td>2</td>
-            <td>2 feet</td>
+            <td>2 Feet</td>
         </tr>
         <tr>
-            <td>noah</td>
+            <td>Noah</td>
             <td>3</td>
-            <td>3 feet</td>
+            <td>3 Feet</td>
         </tr>
     </TAble>
     <br>
+    <main>
+        <h1>About My cat</h1>
+        <li>My Cat Is Very Funny</li>
+        <li>My Cat Is Very Good</li>
+    </main> <br> <br>
     <form action="./formsuccess.html">
-    <label for="fname">first Name:</label><br>
-    <input type="text" id="fname" name="fname" value="" minlength="1" maxlength="100"><br>
-    <label for="lname">last name:</label><br>
-    <input type="text" id="lname" name="lname" value=""> <br>
-    <label for="age">age</label> <br>
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname" value="" minlength="1" maxlength="100" required><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname" value="" required> <br>
+    <label for="age">Age</label> <br>
     <input type="number" id="age" name="age" value="" min="10" max="30" required> <br>
     
     <br>
@@ -101,7 +110,11 @@
     
 
     </form>
-    
-</body>
+</body> <br> <br>
+<link rel="stylesheet" href="style.css">
+
+
+  
+
 </html>
 
